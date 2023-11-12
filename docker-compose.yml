@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   node-app:
-    build: ./docker
+    build: ./artifacts
     image: java-app:1.0
     ports:
       - '9999:9999'
